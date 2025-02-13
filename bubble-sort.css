@@ -1,0 +1,37 @@
+/* bubble-sort.css */
+#bubble-sort-section {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #444;
+    background-color: #222;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  #bubble-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 00px;
+    width: 10%;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #000;
+  }
+  
+  .bubble-bar {
+    width: 30px;
+    margin: 2px;
+    background-color: blue;
+    transition: height 0.5s ease, background-color 0.3s ease;
+  }
+  
+  .bubble-bar.swapping {
+    background-color: red;
+  }
+  
+  .bubble-bar.sorted {
+    background-color: green;
+  }
+  
